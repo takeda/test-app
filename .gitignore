@@ -1,0 +1,9 @@
+/.coverage
+/.direnv/
+/.env
+/.envrc
+/.idea/
+/coverage.xml
+/pytest.xml
+/result
+__pycache__/

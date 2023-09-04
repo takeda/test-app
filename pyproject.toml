@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "test-app"
+version = "2.1.0"
+description = ""
+authors = []
+license = ""
+packages = [
+	{ include = "test_app.py" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^1.8.2"
+
+[tool.poetry.scripts]
+test-app = "test_app:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
